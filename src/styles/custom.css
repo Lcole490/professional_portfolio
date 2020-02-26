@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+  }
+  
+  h3{
+      font-size: 36px;
+      font-family: 'Poppins' ;
+
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15vh;
+    background-color: rgb(28, 43, 59);
+    color: white;
+  }
+  
+  .nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li:hover {
+    background-color: rgb(16, 139, 67);
+  }
+
+
